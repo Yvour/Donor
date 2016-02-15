@@ -1,15 +1,18 @@
 {
-  "name": "donor",
-  "version": "0.0.1",
-  "description": "donor helping",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "blood",
-    "donors"
-  ],
-  "author": "Iv. Urvanov",
-  "license": "MIT"
+    "name": "donor",
+    "version": "0.0.1",
+    "description": "donor helping",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "blood",
+        "donors"
+    ],
+    "author": "Iv. Urvanov",
+    "license": "MIT"
+    "scripts": { 
+        "start": "node index.js"
+    }
 }
