@@ -37,7 +37,10 @@ app.use(bodyParser.urlencoded({
 }));
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/donor');
+//mongoose.connect('mongodb://localhost:27017/donor');
+mongoose.connect( process.env.MONGOLAB_URI);
+
+
 var db = mongoose.conection;
 var Donor = mongoose.model('Donor', {
 	firstname : String,
