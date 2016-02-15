@@ -11,7 +11,7 @@
         "donors"
     ],
     "author": "Iv. Urvanov",
-    "license": "MIT"
+    "license": "MIT",
     "scripts": { 
         "start": "node index.js"
     }
